@@ -49,16 +49,13 @@ With OtelKit, developers and operators can focus more on building features and l
 ### Usage
 
 #### Validate Configuration
-```bash
-otelkit validate --config /path/to/otel-config.yaml
-```
 
-#### Generate Boilerplate
 ```bash
-otelkit generate --output /path/to/project
+otelkit validate --schema schema.json --target otel-config.json
 ```
 
 #### View Help
+
 ```bash
 otelkit --help
 ```
@@ -66,5 +63,4 @@ otelkit --help
 ## Author
 
 **Your Name**  
-GitHub: [@endalk200](https://github.com/endalk200)  
-
+GitHub: [@endalk200](https://github.com/endalk200)
